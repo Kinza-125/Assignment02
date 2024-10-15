@@ -1,18 +1,12 @@
-import React from "react"
-import Hero from "./Hero/Hero"
-import Header from "./components/Header/Header"
-import Footer from "./Footer/Footer"
+import React from 'react'
 
-const Page = () => {
+const Aboutpage = () => {
   return (
     <div>
-      <Header></Header>
-      <Hero></Hero>
-      <Footer></Footer>
-      
-      
+      <h1 className="h1">This is my Aboutpage</h1>
     </div>
   )
 }
 
-export default Page
+export default  Aboutpage
+
