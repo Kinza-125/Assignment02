@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Aboutpage = () => {
+const Contactpage = () => {
   return (
     <div>
-      <h1 className="h1">This is my Aboutpage</h1>
+      <h1 className="h1">This is Contactpage</h1>
     </div>
   )
 }
 
-export default  Aboutpage
+export default Contactpage
 
