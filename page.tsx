@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react"
+import Hero from "./Hero/Hero"
+import Header from "./components/Header/Header"
+import Footer from "./Footer/Footer"
 
-const Servicepage = () => {
+const Page = () => {
   return (
     <div>
-      <h1 className="h1">This is my Servicepage</h1>
+      <Header></Header>
+      <Hero></Hero>
+      <Footer></Footer>
+      
+      
     </div>
   )
 }
 
-export default Servicepage
+export default Page
